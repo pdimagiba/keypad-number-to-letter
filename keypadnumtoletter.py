@@ -111,7 +111,7 @@ def main():
                 finalAlpha = ""
                 break
         # avoid printing blank finalAlpha's
-        if finalAlpha == "" or finalAlpha == "_":
+        if finalAlpha == "":
             continue
         # display a completed, valid alphabetical equivalent PIN
         print(finalAlpha)
